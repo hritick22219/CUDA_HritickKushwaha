@@ -1,4 +1,4 @@
-
+This frontal face detector, WebAssemby model is pre-trained on the Genki-4K datatset for Web oriented applications. The model is production ready, works at Real-Time on all modern browsers (mobile devices included). Usage instruction already included in the package.
 Setting Up a WebAssembly-Based Face Detector Using SOD Library
 This guide walks you through deploying a WebAssembly (Wasm) face detector model pre-trained on the Genki-4K dataset for web applications. The face detector is designed to work in real-time on all modern browsers, including mobile devices.
 
