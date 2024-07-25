@@ -54,3 +54,20 @@ SOD in 5 Minutes or Less: A quick introduction to programming with the SOD Embed
 C/C++ API Reference Guide: Detailed documentation of each API function.
 License Plate Detection: Example of detecting vehicle license plates using SOD.
 By following these steps, you can effectively deploy a WebAssembly-based face detector using the SOD library. This setup is ideal for applications requiring real-time face detection in web environments.
+
+How to See the Result
+Deployment:
+
+Ensure the Wasm model and usage.html are correctly deployed on your server.
+For local testing, you can use a local server like Python's HTTP server, while for production, deploy it on a live web server.
+Accessing the Application:
+
+Open your web browser and navigate to the URL where the application is hosted. If testing locally, this will typically be something like http://127.0.0.1:8000.
+Using the Application:
+
+Upon loading the page, the application will prompt for permission to access the webcam (if applicable).
+Once granted, the application will display the video feed along with real-time face detection, highlighting detected faces.
+Additional Information
+Performance: The face detector works in real-time on modern browsers, including mobile devices. Ensure your server is correctly serving .wasm files to avoid issues, particularly on Chrome.
+Customization: The detector can be customized or integrated into broader applications, such as for security, entertainment, or accessibility.
+If the model and HTML are properly set up, the final application should work seamlessly, providing a practical demonstration of real-time face detection using WebAssembly and SOD.
